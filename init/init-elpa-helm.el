@@ -1,4 +1,4 @@
-;; Time-stamp: <naturezhang 2015/09/21 21:20:00>
+;; Time-stamp: <naturezhang 2016/09/24 02:59:07>
 
 (require-package 'helm)
 
@@ -14,7 +14,7 @@
 ;; (define-key shell-mode-map (kbd "C-c C-l") 'helm-comint-input-ring)
 ;; (define-key minibuffer-local-map (kbd "C-c C-l") 'helm-minibuffer-history)
 
-;; wirite to ~/emacs_config/init/init-binding-key.el
+;; wirite to ~/.emacs.d/init/init-binding-key.el
 ;; (global-set-key (kbd "C-; x") 'helm-M-x) 
 
 ;; optional fuzzy matching for helm-M-x

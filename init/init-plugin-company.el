@@ -1,6 +1,6 @@
-;; Time-stamp: <naturezhang 2015/01/20 14:43:30>
+;; Time-stamp: <naturezhang 2016/09/24 03:00:27>
 
-(add-to-list 'load-path "~/emacs_config/plugin/company-mode")
+(add-to-list 'load-path "~/.emacs.d/plugin/company-mode")
 
 (autoload 'company-mode "company" nil t)
 

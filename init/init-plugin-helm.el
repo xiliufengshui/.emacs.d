@@ -1,7 +1,7 @@
-;;  Time-stamp: <naturezhang 2015/01/06 22:36:56>
+;;  Time-stamp: <naturezhang 2016/09/24 03:00:42>
 
-(add-to-list 'load-path "~/emacs_config/plugin/emacs-async")
-(add-to-list 'load-path "~/emacs_config/plugin/helm")
+(add-to-list 'load-path "~/.emacs.d/plugin/emacs-async")
+(add-to-list 'load-path "~/.emacs.d/plugin/helm")
 
 (require 'helm-config)
 (helm-mode 1)

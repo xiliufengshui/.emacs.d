@@ -1,7 +1,7 @@
-;;  Time-stamp: <naturezhang 2015/01/20 14:42:15>
+;;  Time-stamp: <naturezhang 2016/09/24 03:00:11>
 
 
-(add-to-list 'load-path "~/emacs_config/plugin/color-theme-6.6.0/")
+(add-to-list 'load-path "~/.emacs.d/plugin/color-theme-6.6.0/")
 (require 'color-theme)
 (eval-after-load "color-theme"
   '(progn

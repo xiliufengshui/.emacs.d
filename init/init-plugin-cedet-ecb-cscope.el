@@ -1,4 +1,4 @@
-;;  Time-stamp: <naturezhang 2015/01/20 14:41:04>
+;;  Time-stamp: <naturezhang 2016/09/24 03:00:02>
 
 (add-hook 'c++-mode-hook 
 	  '(lambda()
@@ -7,7 +7,7 @@
 	     ;; ;	     (c-toggle-auto-state 1)
 	     (c-toggle-hungry-state 1)
 	     
-	     (load-file "~/emacs_config/plugin/cedet-1.1/common/cedet.elc")
+	     (load-file "~/.emacs.d/plugin/cedet-1.1/common/cedet.elc")
 	     (global-ede-mode 1)
 	     (semantic-load-enable-excessive-code-helpers)
 	     (semantic-load-enable-semantic-debugging-helpers)
@@ -17,7 +17,7 @@
 	     ;;(semantic-mru-bookmark-mode)  ;; 已经开启了 在一次 就关闭了
 	     (global-semantic-stickyfunc-mode) ;;关闭最上面的那个 显示  因为 tabbar 要用
 	     (global-semantic-tag-folding-mode) ;;折叠
-	     (add-to-list 'load-path	"~/emacs_config/plugin/ecb-2.40/")
+	     (add-to-list 'load-path	"~/.emacs.d/plugin/ecb-2.40/")
 	     (require 'ecb)
 	     (setq stack-trace-on-error nil)
 	     (require 'xcscope)))

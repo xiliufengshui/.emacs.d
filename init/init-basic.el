@@ -1,4 +1,4 @@
-;; Time-stamp: <naturezhang 2016/09/11 19:14:45>
+;; Time-stamp: <naturezhang 2016/09/24 02:58:55>
 ;;去掉工具栏
 (tool-bar-mode 0)
 
@@ -76,12 +76,12 @@
 ;;允许emacs和外部其他程序的粘贴
 (setq x-select-enable-clipboard t)
 
-;;所有的备份文件都放置在~/emacs_config/backup目录下
+;;所有的备份文件都放置在~/.emacs.d/backup目录下
 (setq version-control t)
 (setq kept-old-versions 2)
 (setq kept-new-versions 5)
 (setq delete-old-versions t)
-(setq backup-directory-alist '(("." . "~/emacs_config/backup")))
+(setq backup-directory-alist '(("." . "~/.emacs.d/backup")))
 (setq backup-by-copying t)
 ;;emacs中，改变文件时，默认都会产生备份文件（以~结尾的文件）。可以完全去掉
 ;;（并不可取），也可以制定备份的方式。这里采用的是，把所有的文件备份都放在一个
@@ -137,9 +137,9 @@
   )
 
 (eshell)
-(after-load 'init-plugin-color-theme
-  ;;set eshell theme color
-  (color-theme-blue-eshell))
+;; (after-load 'init-plugin-color-theme
+;;   ;;set eshell theme color
+;;   (color-theme-blue-eshell))
 
 (toggle-frame-maximized)
 

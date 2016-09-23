@@ -1,6 +1,6 @@
-;; Time-stamp: <naturezhang 2015/01/18 05:55:28>
+;; Time-stamp: <naturezhang 2016/09/24 03:02:20>
 
-(add-to-list 'load-path "~/emacs_config/plugin/yasnippet")
+(add-to-list 'load-path "~/.emacs.d/plugin/yasnippet")
 
 (require 'yasnippet)
 
