@@ -1,4 +1,4 @@
-;; Time-stamp: <naturezhang 2016/09/24 02:58:55>
+;; Time-stamp: <naturezhang 2016/09/28 00:08:35>
 ;;去掉工具栏
 (tool-bar-mode 0)
 
@@ -120,6 +120,12 @@
 
 ;;shell 使用颜色 ls --color  有用
 ;;(ansi-color-for-comint-mode-on)
+
+;; 当文件发生变化时 自动加载最新文件
+(global-auto-revert-mode 1)
+
+;; 替换选中的一块
+(delete-selection-mode 1)
 
 ;; mapping key bindings 检测系统 如果是mac os 则替换键映射
 (when (eq system-type 'darwin) ;; mac specific settings
