@@ -1,4 +1,4 @@
-;; Time-stamp: <naturezhang 2016/08/26 00:12:57>
+;; Time-stamp: <naturezhang 2016/09/29 21:21:10>
 
 ;; 绑定 前缀 c-; for myself
 (define-prefix-command 'ctl-\;-map)
@@ -65,6 +65,9 @@
 
 ;; replace list-buffers with ibuffer  
 (global-set-key (kbd "C-x C-b") 'ibuffer)
+
+;; replace search ---> swiper
+;; (global-set-key (kbd "C-s") 'swiper)
 
 
 (provide 'init-binding-key)
