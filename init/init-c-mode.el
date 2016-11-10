@@ -1,4 +1,4 @@
- ;; Time-stamp: <naturezhang 2016/09/09 13:48:46>
+ ;; Time-stamp: <naturezhang 2016/11/10 23:10:06>
 
 
 (add-hook 'c-mode-hook
@@ -8,7 +8,7 @@
              (hs-minor-mode)
              (company-mode)
              (semantic-mode 1)
-             (subword-mode 1)
+             ;; (subword-mode 1)
              (setq company-backends '(
                                       (
                                        company-yasnippet
@@ -28,7 +28,7 @@
              (hs-minor-mode)
              (company-mode)
              (semantic-mode 1)
-             (subword-mode 1)
+             ;; (subword-mode 1)
              (setq company-backends '(
                                       (
                                        company-yasnippet
