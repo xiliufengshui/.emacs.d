@@ -1,4 +1,4 @@
-;; Time-stamp: <naturezhang 2016/12/27 21:41:57>
+;; Time-stamp: <naturezhang 2016/12/27 21:48:17>
 ;;去掉工具栏
 (tool-bar-mode 0)
 
@@ -129,7 +129,8 @@
 
 ;; mapping key bindings 检测系统 如果是mac os 则替换键映射
 (when (eq system-type 'darwin) ;; mac specific settings
-  (cd "~/")
+  ;; (cd "~/")
+  (cd "~/Desktop")
   ;; 设置 mac 键映射 注释 改用 karabiner 修改系统 键映射
   ;; (setq mac-option-modifier 'control)
   ;; (setq mac-command-modifier 'meta)
@@ -139,8 +140,7 @@
 
 ;; 初始化路径 eshell 窗口最大化
 (when (eq system-type 'windows-nt) ;; mac specific settings
-  ;; (cd "~/")
-  (cd "~/Desktop")
+  (cd "~/")
   )
 
 (eshell)

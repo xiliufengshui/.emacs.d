@@ -1,4 +1,4 @@
-;;  Time-stamp: <naturezhang 2016/09/09 13:28:35>
+;;  Time-stamp: <naturezhang 2016/12/27 21:44:43>
 
 ;; compile
 (defun my-compile ()
@@ -40,7 +40,7 @@
   (while (car BufferList)
     (kill-buffer (car BufferList))
     (setq BufferList (cdr BufferList)))
-  (cd "~/")
+  (cd "~/Desktop")
   (eshell))
 
 ;; open gvim 
