@@ -1,4 +1,4 @@
-;; Time-stamp: <naturezhang 2016/09/28 00:08:35>
+;; Time-stamp: <naturezhang 2016/12/27 21:41:57>
 ;;去掉工具栏
 (tool-bar-mode 0)
 
@@ -139,7 +139,8 @@
 
 ;; 初始化路径 eshell 窗口最大化
 (when (eq system-type 'windows-nt) ;; mac specific settings
-  (cd "~/")
+  ;; (cd "~/")
+  (cd "~/Desktop")
   )
 
 (eshell)
