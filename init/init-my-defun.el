@@ -1,18 +1,24 @@
-;;  Time-stamp: <naturezhang 2016/12/27 21:44:43>
+;;  Time-stamp: <naturezhang 2020/04/08 01:25:09>
 
 ;; compile
 (defun my-compile ()
   "compile shortcut"
   (interactive)
-  (delete-other-windows)
-  (setq split-width-threshold nil)
-  ;;  (select-window-2)
   (save-some-buffers t nil)
-  (compile "cd ../build && make")
-  ;;  (split-window-below)
-  (shrink-window (* (/ (window-height) 5) -3))
-  (setq split-width-threshold 160)
-  ;;  (eshell)
+  (delete-other-windows)
+  ;; (setq split-width-threshold nil)
+  ;; (select-window-2)
+  ;; (compile "cd ../build && make")
+  (split-window-right)
+  (compile "./make.sh")
+  ;; (shrink-window (* (/ (window-height) 5) -3))
+  ;; (setq split-width-threshold 160)
+  (select-window-2)
+  (split-window-below)
+  (select-window-3)
+  (eshell)
+  (select-window-2)
+  ;; (eshell)
   )
 
 (defun my-rollwindow-down ()
